@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        style="@style/TitleLinearlayoutStyle">
+        <ImageView
+            android:id="@+id/merchant_icon"
+            style="@style/TitleImageviewStyle"
+            android:clickable="true" />
+        <TextView
+            android:id="@+id/merchant_name"
+            style="@style/TitleTextviewStyle"
+            android:text="我是商家名"/>
+    </LinearLayout>
+    <TextView
+        style="@style/TextviewShadowStyle" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:paddingLeft="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总体评价"
+            android:layout_gravity="center_vertical"
+            android:textSize="@dimen/text_size_default"
+            android:textColor="#a000"/>
+        <RatingBar
+            android:id="@+id/whole_commment"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="false"
+            android:clickable="true"
+            android:numStars="5"
+            android:stepSize="1"
+            android:rating="0"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextviewShadowStyle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="商店评价"
+        android:paddingLeft="15dp"
+        android:textColor="#a000"
+        android:textSize="@dimen/text_size_default"
+        android:gravity="center_vertical"/>
+    <EditText
+        android:id="@+id/edit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="@dimen/text_size_default"
+        android:gravity="top"
+        android:lines="5" />
+    <Button
+        android:id="@+id/comment_commit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:text="评价"
+        android:textSize="@dimen/button_size"
+        android:textColor="@color/white"
+        android:background="@drawable/btn_selector"
+        android:visibility="visible"
+        android:layout_gravity="right" />
+</LinearLayout>

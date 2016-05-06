@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <LinearLayout style="@style/TitleLinearlayoutStyle">
+
+        <ImageView
+            android:id="@+id/iv_password_reset"
+            style="@style/TitleImageviewStyle"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:id="@+id/tv_password_reset"
+            style="@style/TitleTextviewStyle"
+            android:text="注册" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <EditText
+            android:id="@+id/et_new_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="请输入密码"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:textSize="@dimen/text_size_tip_default" />
+
+        <TextView
+            android:id="@+id/tv_new_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="两次输入的密码不一致"
+            android:textColor="#be0b0b"
+            android:visibility="gone" />
+        <TextView
+            style="@style/TextviewLineStyle" />
+        <EditText
+            android:id="@+id/et_confirm_password_register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="确认密码"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:textSize="@dimen/text_size_tip_default" />
+        <TextView
+            style="@style/TextviewLineStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正在拨打您的手机："
+            android:textSize="@dimen/text_size_tip_default" />
+
+        <TextView
+            android:id="@+id/tv_register_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/normal_orange"
+            android:textSize="@dimen/text_size_tip_default" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <EditText
+            android:id="@+id/et_register_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:hint="验证码"
+            android:background="@null"
+            android:textSize="@dimen/text_size_tip_default" />
+
+        <Button
+            android:id="@+id/btn_register_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_selector"
+            android:onClick="btn_register_again"
+            android:text="重新获取"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+    <TextView
+        style="@style/TextviewLineStyle" />
+
+    <Button
+        android:id="@+id/btn_register_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/btn_selector"
+        android:onClick="btn_register_ok"
+        android:layout_marginTop="15dp"
+        android:text="完成注册"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="8dp">
+
+        <TextView
+            android:id="@+id/tv_no_yanzheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未收到验证码？请拨打" />
+
+        <TextView
+            android:id="@+id/tv_rexian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_no_yanzheng"
+            android:text="免费热线"
+            android:textColor="@color/normal_orange" />
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/G:/Resource/SEUProject/project/CHBhycHU/CHB/hunger/src/main/res/layout/activity_register_ok.xml -->

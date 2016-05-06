@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/TitleLinearlayoutStyle">
+        <ImageView
+            android:id="@+id/iv_address_forward2"
+            style="@style/TitleImageviewStyle" />
+        <TextView
+            style="@style/TitleTextviewStyle"
+            android:text="新增地址" />
+    </LinearLayout>
+    <TextView
+        style="@style/TextviewShadowStyle"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="联系人  "
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"/>
+            <EditText
+                android:id="@+id/et_name_addaddress"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:hint="你的姓名"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"
+                android:background="@null"/>
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextviewLineStyle"/>
+
+        <RadioGroup
+            android:id="@+id/rg_sex_addaddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_male_addaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="先生"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"/>
+
+            <RadioButton
+                android:id="@+id/rb_famale_addaddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="女士"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/TextviewLineStyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="联系电话"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"/>
+
+            <EditText
+                android:id="@+id/et_phone_addaddress"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="你的手机号"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"
+                android:background="@null"
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextviewLineStyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="收货地址"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"/>
+
+            <EditText
+                android:id="@+id/et_gps_addaddress"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"
+                android:background="@null"
+                android:hint="小区/写字楼/学校"
+                android:focusable="true"
+                android:clickable="true"
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextviewLineStyle"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/et_detailadd_addaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="详细地址（如门牌号等）"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_tip_default"
+                android:background="@null"
+                />
+        </LinearLayout>
+
+        <TextView
+            style="@style/TextviewLineStyle"/>
+    </LinearLayout>
+
+    <TextView
+        style="@style/TextviewShadowStyle"/>
+
+    <Button
+        android:id="@+id/btn_ok_addaddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_selector"
+        android:text="确定"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_size"/>
+
+</LinearLayout>
+
+
+<!-- From: file:/G:/Resource/SEUProject/project/CHBhycHU/CHB/hunger/src/main/res/layout/activity_add__address.xml -->

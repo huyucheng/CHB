@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line" >
+    <stroke
+        android:dashGap="0dp"
+        android:dashWidth="3dp"
+        android:width="1dp"
+        android:color="#6a836d6d" />
+    <!-- 虚线的高度 -->
+    <size android:height="1dp" />
+</shape><!-- From: file:/G:/Resource/SEUProject/project/CHBhycHU/CHB/hunger/src/main/res/drawable/drawable_line.xml -->

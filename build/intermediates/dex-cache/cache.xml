@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\baidumapapi_search_v3_7_0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="934d5f6ca26f082fbe8bf17767caa530e37d1dfa">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\baidumapapi_search_v3_7_0-f23aaba2774093ba9ba99e1f067c89e53c5d727c.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_WeiXin_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d7c2f29c05b35e8c8713be2b81c41cf18f98b64a">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_1-f9baee6d2c22a53efd1871abb0313e87c62e97d1.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_AtFriends.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0478e38d722e676a0f1b721817f65d0fc0e32364">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_AtFriends-f44d779cd58389289af302d7475c07cc5649decd.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_QQZone_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1d1a215c3acd13ef011b8391cab495f7760c2a1d">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_1-92a5d2499fb8aed3b7addaacd2a0012bd3b53a23.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\baidumapapi_radar_v3_7_0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="15ca4625795ed40520a94e7ef1aa53791f9e17fe">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\baidumapapi_radar_v3_7_0-aabf55a5fdacc2866fd225a7909f184fc96e2e6f.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_tencentWB_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6f744074067eb201171c9c8ff1ca45ed821a76a8">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_2-e7b73109b7b3d9bae3ee22b0567739d35d512013.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_laiwang_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5778375ae0d0aa13d1e8f810116bce0672ad7973">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_laiwang_1-b98ce2605043cccae4cefe681145d8ba00b0632a.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_tencentWB_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="328c5351cae13f2ab29450d22b6c02d0ac88a855">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_1-a14bc67633fb50ffbd3ed2ce8ea44264fb61bc7c.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_linkedin.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="694df21b4d328f913fc3c1a3f3e58bdb29369fb0">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_linkedin-29a032db516f51b088f5e2b45ce20e455dcdccc6.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_tencentWB_3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d53a46eb19f4e70b25b06235447adb98fc2428ab">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_tencentWB_3-d9bff253295588b704c4244560fe22763b9a1e06.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\exploded-aar\org.xutils\xutils\3.3.22\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="57efca11519151f131f4980f939b71793284278f">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\classes-ad554d422631c375a147f57e8b045d9d243715d3.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\exploded-aar\SMSSDK-2.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0ddb0f66ce51afc2a0187b8036584ee553f006c1">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\classes-178ff2fa1df53e1cb199026a0bb42dff420352ab.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\alipayutdid.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4345fa0a5a7768f2f9c86aaab7db9e2906765193">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\alipayutdid-70490d9edd0949e662680153af3cab255472463a.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\exploded-aar\SMSSDKGUI-2.0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="abf111c203fd0a6efd5a7d9435a7fa52aba3eb0e">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\classes-109887233c6f8016f6423cb1020b58c35988ee71.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\exploded-aar\CHB\headListViewLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a47bb358ae25f8f83b34732ab03232d099c644ee">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\classes-121499549bd70cd1c4add6956e8dbf9acfa5acfb.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\baidumapapi_map_v3_7_0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="534f8d224f352bba70229230b79028cab1e7859c">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\baidumapapi_map_v3_7_0-840afd6c5af789c3ed1983fce5087c1dd6462b5c.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_renren_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0ca209d760b28d73bbe444888cdd0c20eeaacbc3">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_renren_1-ba32d442c15d6d1c29f6be8cbfc90ba4e125f2db.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\locSDK_6.13.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\locSDK_6.13-b83ef7a0115d4fd5aa6a22975249c18eabe155ab.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\umeng_social_sdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5dd4446548e68a6a853b2de1b4b61046ad92ecff">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\umeng_social_sdk-ade0332434e207361a97ccad6ea8d98d4d48dcd7.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_sms.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0752173798b8d091cdc96bfaa0d242f6c93ec806">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_sms-770fd0e0c59c245774714c34e073951a23d91351.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\classes-df65794e174d3cd4590542fc53cc7403c51426c8.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_QQZone_3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9395899a5958d59894926fc229c850338862a81e">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_3-d778a5e591650c17a95cde4b0b46f7467adcaf11.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\BmobPay_v2.4_160125.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1389e99810adc14a4749fa1324d4c769fe67f96f">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\BmobPay_v2.4_160125-4f62a9ff5a7b45b9f0cc23d9d04e2d39891b4f8c.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_shake.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8e5f4fdbd9f2b719cac98d48df606fd34ecf9d87">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_shake-fbc14a3e0831de7c91f4d2578658d901054892da.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_pocket.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8681cd6dedb8b8137bc6df195ab04b7e5aed2427">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_pocket-2c6352bbea4d4ab0fd3f50014725094cd54bd33a.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\baidumapapi_cloud_v3_7_0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d11ba6426881d142f67c539d8a13d19446ac895">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\baidumapapi_cloud_v3_7_0-c22b95418caae62bb9f6dd317ea4d55a371f2bcc.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_instagram.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7c8d1dded215fcf8ff6df7e8d813f14bc06571ec">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_instagram-2521a37ba286a1331fbd2e8dc3b7bbc2c242e9bf.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\MobTools-2016.0303.1229.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d76d489d04db5e475927a0077c8677b0e3a9fb8a">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\MobTools-2016.0303.1229-48f04ec6e098af40c44febbe9389bf69c1f2cde9.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\classes-0d1e1c3dbd51d8f5b8ca27517e94ab44404d86ff.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_like.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6ca2bf46e8d7de4267e4e4537616d0375b584081">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_like-19cb9cad9ecbab7612613c29c88034e8dc26e393.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_actionbarview.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2aa0a2636067a4a726af3b6e7be78f5b1af96f45">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_actionbarview-90267a714a9827be49d6c00a7e8b1e21ce8ef770.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_yixin_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8fa68a3bb5ae6231cd4ccaf355d80c6f3725d0ca">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_yixin_1-c7c42752bbea2c19e2131a8d2271a6103d4f9558.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\org.apache.http.legacy-5d68e728c03880a08692c1f3ee5d587d878a23d8.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_scrshot.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="19bb87cfac63079fc381bcc0aeb0bd0417c34adc">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_scrshot-1252c50b847adc6f486afb55fbf99dfc2722647c.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\baidumapapi_base_v3_7_0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="18e10945278df7f556e2e336a826b0db965dce51">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\baidumapapi_base_v3_7_0-c7666a1aa880e98986437ed14f14956875a409d3.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_UserCenter.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f22bec2e15db420e09ccbc0230c114e95b09c917">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_UserCenter-69777b11f83cbeb13a967391afe9e4a0b50f7512.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_QQZone_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="73915005d14af2994f235034b9f9832d666a6ec9">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_QQZone_2-c89b7ddce77413d9beb40ef7b714e05a2da64504.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\MobCommons-2016.0303.1229.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="daa572a22ffbbf3550a9e3e4d65045c3e3936602">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\MobCommons-2016.0303.1229-ad94823b5e56bb5a63574d04cebbb92b5b2b7150.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\alipaysdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b40481f01537a329936ce54ee2fe15ef2537f010">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\alipaysdk-bbab699d9baf59f4d4be40201f422732c75b3a28.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_facebook_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="00b4e434b4ce515b763df8affe267b70ebfe10b0">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_facebook_2-8c7e973c025c3563b7ade054fcc8e3c2e351b35c.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_laiwang_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1d1e0bb6a19edf3b62f12855f07eaf2f77e10ae0">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_laiwang_2-951b6caf224da24338733771bf817b0e883115ea.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_ynote.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2a2d7118a48c591fe9d87f9a4252194d02b11af2">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_ynote-110cb42095ece7da32bb71e7c925d73350df5818.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_facebook_1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="68abd76cf1bb8929652b6d684690f9417c341872">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_facebook_1-cb871656ba4d167673b4aa0145c90f008b2e065f.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_email.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b040a4a967c1333f2c46fc1bf198d0564d493be6">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_email-afb95f5b21fad28e71ce5891668c3c9f6f0d9f3f.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\alipaysecsdk.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7413c074c9edf523050267b93d0875151dc4b644">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\alipaysecsdk-a773c5c25340850ad634ce586b43f16420343a4b.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_WeiXin_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a67f8583b21c7491a57163e5f4788623bf12b4aa">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_WeiXin_2-3db885e5f46c4264873a51fa56aeccb451a01d22.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\BmobSDK_V3.3.5_0408.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e40484e10e7fc470815a97be1d397af0d1e0c34d">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\BmobSDK_V3.3.5_0408-97fbb42b0962d6af7bf76c8882e0be789d82e3b1.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_evernote.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3782160fd2a6762207e34b0d89a81ac806dd2e7">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_evernote-09cccafbef975d6d1285a85d852d40441bd45762.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\exploded-aar\CHB\viewPagerIndicatorLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0703ebf5a92073431c0629d4356654a7a31e06e5">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\classes-4696e304e23b8ce7f6f64f8fb50621943c031803.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_Sina.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="676d0f800b0124e4fd11f7358c8f873f76a59169">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_Sina-a01dd346cfdbb3e71f9d3c5142e38fc0ead19789.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-db789135b88b698bd18dbc30e84d638ba3f64f61.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_comment.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d5e8799c317f0faaead7e1bc018ebb606c889863">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_comment-9d3421f07e1819632d8a9473f68498eb33f02653.jar" />
+    </item>
+    <item
+        jar="E:\ASSDK\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-49c569170051c13fdd1ad3ce9f1beeba776d9ae6.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\xUtils-2.6.14-6d3bb9f7572544fdeaaf4e44f85e0a44fad1c547.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\gson-2.3.1-e15133fb3ce2818ab714a3b522a0da4aebdeb531.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\BmobPay_V1.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9d6ce35069e8e2b41b1ede69a7d63649d7ac948f">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\BmobPay_V1.0.0-341ef4d03b00c829cbd41043259827caca7fa05d.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\httpmime-4.1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e70d34d98f7f7f3b2b92105b9f2fe2a7a7184461">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\httpmime-4.1.3-be6b7dfba011cef4b120c992f9cb38bac789a90d.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_renren_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="481abc0707bada5f87ff6ae0218f4ad63807b334">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_renren_2-f5d41cf9c7b6b9e2285d4e843b2afc7a1d4cb154.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_yixin_2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c13f75ae8d868d6ac5ba7ebf191b141e906dc1f">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_yixin_2-ae44a605e98332fbdaee67e584fb36dd69b41bb4.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\SocialSDK_pinterest.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5e52956885b68cc193ec19bb0660334271b16298">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\SocialSDK_pinterest-40c911bf8c83e0c025f4023a535c6d985163c808.jar" />
+    </item>
+    <item
+        jar="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\libs\baidumapapi_util_v3_7_0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72003ec5efa50c2e02266e1ad7ebefaca7d017d6">
+        <dex dex="G:\Resource\SEUProject\project\CHBhycHU\CHB\hunger\build\intermediates\pre-dexed\debug\baidumapapi_util_v3_7_0-b559e5ab496ceacfb62a043ca49772767f551b98.jar" />
+    </item>
+
+</items>

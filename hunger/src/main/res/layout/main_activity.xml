@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:background="@color/normal_orange"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tv_search_store_byaddress"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:src="@drawable/home_ico_city"
+            android:gravity="center_vertical"
+            android:onClick="click"
+            android:padding="15dp"
+            />
+
+
+        <TextView
+            android:id="@+id/et_search_store_byaddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="click"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:text="商户名，地点等...        "
+            android:textColor="@color/white" />
+
+       <!-- <ImageView
+            android:id="@+id/ivDeleteText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:paddingRight="20dp"
+            android:src="@drawable/delete"
+            android:visibility="gone" />-->
+
+
+        <!--<ImageView
+            android:id="@+id/search_store_byname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:src="@drawable/home_navibar_icon_add" />-->
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c7c7c7"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_takeout"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_home_selector"
+            android:text="外卖" />
+
+        <RadioButton
+            android:id="@+id/rb_order"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_news_selector"
+            android:text="订单" />
+
+        <RadioButton
+            android:id="@+id/rb_userInfo"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/btn_tab_smart_selector"
+            android:text="我的" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/good_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="商品名"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_size_default" />
+
+    <TextView
+        android:id="@+id/good_num"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="商品数量"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_size_default" />
+
+    <TextView
+        android:id="@+id/good_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="商品价格"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/text_size_default" />
+
+
+</LinearLayout>
+<!-- From: file:/G:/Resource/SEUProject/project/CHBhycHU/CHB/hunger/src/main/res/layout/order_good_detail.xml -->

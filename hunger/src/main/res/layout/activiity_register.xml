@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/normal_bg_color"
+    >
+
+    <LinearLayout
+        style="@style/TitleLinearlayoutStyle">
+        <ImageView
+            android:id="@+id/iv_password_reset"
+            style="@style/TitleImageviewStyle"
+            android:clickable="true"
+            android:onClick="iv_password_reset"/>
+        <TextView
+            android:id="@+id/tv_password_reset"
+            style="@style/TitleTextviewStyle"
+            android:text="注册"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/register_phone"
+        android:textSize="@dimen/text_size_tip_default"
+        android:background="@null"
+        android:maxLength="13"
+        android:inputType="phone" />
+    <TextView
+        style="@style/TextviewLineStyle"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_selector"
+        android:onClick="btn_register"
+        android:text="@string/register_btn"
+        android:enabled="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_size" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册代表同意" />
+        <TextView
+            android:id="@+id/tv_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_user"
+            android:text="《用户服务协议》"
+            android:textColor="@color/normal_orange"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

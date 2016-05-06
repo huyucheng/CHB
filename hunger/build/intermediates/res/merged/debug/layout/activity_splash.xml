@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_root"
+    android:background="@color/splash_bg">
+
+
+    <ImageView
+        android:id="@+id/iv_splash_chb"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_chb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+    <TextView
+        android:id="@+id/tv_splash_life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="爱生活"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/iv_splash_chb"/>
+    <TextView
+        android:id="@+id/tv_splash_ch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="爱吃货！"
+        android:textSize="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/tv_splash_life"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_splash"
+        android:text="吃货宝"
+        android:textColor="@color/splash_bg"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_chb_log"
+        android:drawablePadding="5dp"
+        android:layout_marginBottom="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout><!-- From: file:/G:/Resource/SEUProject/project/CHBhycHU/CHB/hunger/src/main/res/layout/activity_splash.xml -->

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="normal_orange">#ff6633</color>
+    <color name="normal_bg_color">#f0f0f0</color>
+    <color name="normal_bg_color_litter">#f7f7f7</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#696969</color>
+    <color name="silverGray">#c7c7c7</color>
+    <color name="darkGray">#333333</color>
+    <color name="black">#000000</color>
+    <color name="home_search_bg">#e64514</color>
+    <color name="yellowGreen">#42bf06</color>
+    <color name="normal_orange_btn_unclickable">#f5d0a8</color>
+    <color name="normal_orange_btn_pressed">#d25000</color>
+    <color name="button_unclickable">#FF97E67B</color>
+    <color name="button_press_false">#FF44BE1A</color>
+    <color name="button_press_true">#FF219420</color>
+    <color name="textview_pressed_true">#F5F5F5</color>
+    <color name="splash_bg">#FFFD7F42</color>
+    <color name="text_bg_press">#F9CFC2</color>
+    <color name="default_text_gray">#a000</color>
+    <color name="food_price">#FFE45322</color>
+    <color name="text_line">#6a836d6d</color>
+    <color name="btn_start_experience_normal">#FD8322</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff">
+    <LinearLayout
+        android:id="@+id/ll_popwindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_upImage"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上传头像"
+            android:textSize="@dimen/title_text_size"
+            android:textColor="#a000" />
+
+        <TextView
+            android:id="@+id/tv_take_photo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拍照"
+            android:textSize="@dimen/text_size_tip_default"
+            android:textColor="#74000000"
+            />
+
+        <TextView
+            android:id="@+id/tv_pick_photo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="从手机相册选择"
+            android:textSize="@dimen/text_size_tip_default"
+            android:textColor="#74000000"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
+<!-- From: file:/G:/Resource/SEUProject/project/CHBhycHU/CHB/hunger/src/main/res/layout/dialog_camera.xml -->

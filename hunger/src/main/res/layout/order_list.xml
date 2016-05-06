@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+
+    <LinearLayout
+        style="@style/TitleLinearlayoutStyle">
+
+        <TextView
+            android:id="@+id/all_list"
+            style="@style/TitleTextviewStyle"
+            android:text="订单"
+            android:paddingLeft="15dp"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <com.chris.hunger.view.Order_ListView
+        android:descendantFocusability="blocksDescendants"
+        android:id="@+id/ordering_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent">
+    </com.chris.hunger.view.Order_ListView>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/load_tips"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_no_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/no_address"
+            android:layout_marginTop="120dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/tv_no_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_no_address"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="20dp"
+            android:text="您还没有登录"
+            android:textColor="#a000"
+            android:textSize="@dimen/title_text_size"/>
+        <TextView
+            android:id="@+id/tv_click_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_no_address"
+            android:layout_centerHorizontal="true"
+            android:text="点击登录"
+            android:textSize="15sp"
+            android:textColor="#500000"
+            android:paddingTop="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

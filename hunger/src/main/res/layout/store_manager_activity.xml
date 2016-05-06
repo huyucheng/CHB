@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <LinearLayout
+        style="@style/TitleLinearlayoutStyle">
+
+        <TextView
+            android:id="@+id/tv_back_main"
+            style="@style/TitleImageviewStyle" />
+
+        <TextView
+            android:id="@+id/et_search_store_byaddress"
+            style="@style/TitleTextviewStyle"
+            android:text="美食" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:id="@+id/first_menu"
+            android:onClick="onClick"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:text="美食"
+                android:textSize="@dimen/text_size_default"
+                android:textColor="@drawable/menu_text_selector" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/rl_paixun"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:text="排序"
+                android:textSize="@dimen/text_size_default"
+                android:textColor="@drawable/menu_text_selector" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#6a836d6d"/>
+    </LinearLayout>
+    <TextView
+        style="@style/TextviewLineStyle"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        android:onClick="onClick"
+        android:id="@+id/ll_menu_list"
+        android:orientation="horizontal">
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:choiceMode="singleChoice"
+            android:divider="@drawable/listitem_divide"
+            android:listSelector="#00000000"
+            android:scrollbars="none" >
+        </ListView>
+
+        <ListView
+            android:id="@+id/subListView"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF" >
+        </ListView>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_paixun"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#FFFFFF"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:listSelector="#00000000"
+        android:scrollbars="none" >
+    </ListView>
+    <com.chris.hunger.view.XListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:id="@+id/lv_store_menu"
+        >
+    </com.chris.hunger.view.XListView>
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:background="@color/normal_orange"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tv_search_store_byaddress"
+            android:layout_width="45dp"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:src="@drawable/home_ico_city"
+            android:gravity="center_vertical"
+            android:onClick="click"
+            android:padding="15dp"
+            />
+
+
+        <TextView
+            android:id="@+id/et_search_store_byaddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:background="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="click"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:text="商户名，地点等...        "
+            android:textColor="@color/white" />
+
+        &lt;!&ndash; <ImageView
+             android:id="@+id/ivDeleteText"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerInParent="true"
+             android:layout_weight="1"
+             android:paddingRight="20dp"
+             android:src="@drawable/delete"
+             android:visibility="gone" />&ndash;&gt;
+
+
+        &lt;!&ndash;<ImageView
+            android:id="@+id/search_store_byname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:onClick="click"
+            android:src="@drawable/home_navibar_icon_add" />&ndash;&gt;
+    </LinearLayout>-->
+    <com.chris.hunger.view.XListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@android:color/transparent"
+        android:id="@+id/lv_take_out"
+        >
+
+    </com.chris.hunger.view.XListView>
+
+
+</LinearLayout>

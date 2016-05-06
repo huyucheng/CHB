@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/normal_bg_color">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/normal_orange"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_back"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/forward_btn_disable"
+            android:drawablePadding="@dimen/little_sapce"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:onClick="back"
+            android:clickable="true"
+            android:textColor="@color/white" />
+
+
+        <!--<ImageView
+            android:id="@+id/iv_share"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/delete"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="25dp"
+            android:textSize="20sp"
+            android:textColor="@color/white" />-->
+    </RelativeLayout>
+    <com.viewpagerindicator.TabPageIndicator
+        android:id="@+id/Indicator_in_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+    </com.viewpagerindicator.TabPageIndicator>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_in_store"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+</LinearLayout>
